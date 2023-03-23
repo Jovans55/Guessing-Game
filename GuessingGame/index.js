@@ -156,8 +156,9 @@ reset.addEventListener("click", function(){
 
     document.querySelector(".container").style.backgroundColor = '#FCBA00';
 })
-//GIVES A HINT 2 RANDOM NUMBERS ONE THATS CLOSER THAN THE OTHER THEN ALSO THE REAL NUMBER
+//GIVES A HINT 4 RANDOM NUMBERS 2 THAT ARE CLOSER 2 THAT ARE ANY NUMBER THEN ALSO THE REAL NUMBER
 hint.addEventListener("click", function(){
     console.log('you wanted a hint');
-    hintPara.textContent = `HINT: ${Math.floor(Math.random() * winningNum)} ${winningNum} ${Math.floor(Math.random() * 100)}`
+    hintPara.textContent = `HINT: ${Math.floor(Math.random() * winningNum)} ${winningNum} ${Math.floor(Math.random() * 100)}
+    ${Math.floor(Math.random() * 100)} ${Math.floor(Math.random() * winningNum)}`
 })

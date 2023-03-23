@@ -31,7 +31,7 @@ button:hover{
     max-width: 700px;
     margin: auto;
     padding: 2vw;
-    top: 300px;
+    top: 8vw;
     border: 10px solid black;
     border-radius: 45px;
     box-shadow: 20px 20px black;
@@ -47,6 +47,11 @@ p{
     box-shadow: 7px 7px black;
 }
 
+p:hover{
+    transition: .2s;
+    padding: 20px;
+    box-shadow: 5px 5px black;
+}
 
 input {
     border: 5px solid black;
@@ -72,7 +77,7 @@ a {
 }
 
 a:hover{
-    font-size: 100px;
+    font-size: 150px;
     transition: 1s;
 }
 
