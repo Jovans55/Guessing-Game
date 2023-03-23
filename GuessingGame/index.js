@@ -89,7 +89,7 @@ guessInputField.addEventListener("keypress", function(event){
         }
         if(executedFive === false && !winner){
             hintPara.textContent = `YOU LOSE THE WINNING NUMBER WAS ${winningNum}`
-        }    
+        }
     }
 })
 
@@ -114,7 +114,7 @@ reset.addEventListener("click", function(){
     executedFour = true;
     executedFive = true;
 
-    document.querySelector(".container").style.backgroundColor = 'orange';
+    document.querySelector(".container").style.backgroundColor = '#FCBA00';
 })
 
 hint.addEventListener("click", function(){

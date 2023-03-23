@@ -1,8 +1,9 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family: monospace;
     font-size: 25px;
-    background-color: cadetblue;
+    background-color: #0965A1;
+    padding: 0px;
 }
 
 h1 {
@@ -23,12 +24,12 @@ button:hover{
 }
 
 .container{
-    background-color: orange;
+    background-color: #FCBA00;
     text-align: center;
     position: relative;
     max-width: 700px;
     margin: auto;
-    padding: 1vw;
+    padding: 2vw;
     top: 300px;
     border: 10px solid black;
     border-radius: 45px;
@@ -56,4 +57,21 @@ input {
 input:hover {
     border: 7px solid black;
     box-shadow: 7px 7px 10px black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
 }
