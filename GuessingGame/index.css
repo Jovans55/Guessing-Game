@@ -1,9 +1,10 @@
 body {
     margin: 0px;
+    height: 100%;
+    width: 100%;
     font-family: monospace;
     font-size: 25px;
     background-color: #0965A1;
-    padding: 0px;
 }
 
 h1 {
@@ -31,7 +32,7 @@ button:hover{
     max-width: 700px;
     margin: auto;
     padding: 2vw;
-    top: 8vw;
+    top: 6vw;
     border: 10px solid black;
     border-radius: 45px;
     box-shadow: 20px 20px black;
@@ -85,11 +86,10 @@ a:hover{
 
 footer{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom: 1%;
     width: 100vw;
+    height: auto;
     padding-top: 40px;
-    margin: 25px;
+    margin: auto;
     text-align: center;
 }

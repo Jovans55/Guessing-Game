@@ -135,7 +135,7 @@ guessInputField.addEventListener("keypress", function(event){
 reset.addEventListener("click", function(){
     console.log('you reset me');
     //CHANGES TOP TITLE BACK
-    hintPara.textContent = 'START GUESSING...';
+    hintPara.textContent = 'GUESS BETWEEN 1-100';
     //MAKES NEW NUMBER
     winningNum = Math.floor(Math.random() * 100);
     console.log(winningNum)
