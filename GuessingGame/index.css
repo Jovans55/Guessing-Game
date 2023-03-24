@@ -63,7 +63,8 @@ input {
 input:hover {
     border: 7px solid black;
     box-shadow: 7px 7px 10px black;
-    transition: .2s;
+    padding: 60px;
+    transition: .4s;
 }
 
 input[type="number"]{
@@ -87,9 +88,8 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: auto;
     width: 100vw;
     padding-top: 40px;
-    margin-bottom: 25px;
+    margin: 25px;
     text-align: center;
 }
